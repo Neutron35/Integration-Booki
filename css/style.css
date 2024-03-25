@@ -164,6 +164,22 @@ main {
 	height: 22px;
 }
 
+.fa-money-bill-wave {
+	font-size: 19px;
+}
+
+.fa-person {
+	font-size: 22px;
+}
+
+.fa-heart {
+	font-size: 18px;
+}
+
+.fa-fire {
+	font-size: 20px;
+}
+
 .infobar {
 	display: flex;
 	align-items: center;
@@ -184,6 +200,7 @@ main {
 	font-size: 10px;
 	border: 1px solid #d9d9d9;
 	border-radius: 50%;
+	color: #0065fc;
 }
 
 .section-title {
@@ -230,6 +247,51 @@ main {
 /****** Hebergements ***********/
 .hebergements {
 	width: 65%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.hebergements-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.hebergements-cards a {
+	width: 30.8%;
+}
+
+.hebergements-cards .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 4px;
+}
+
+.hebergements-cards img {
+	border-radius: 20px 20px 0 0;
+	height: 124px;
+}
+
+.hebergements-cards .card-content {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 0 15px 0 15px;
+}
+
+.hebergements-cards .card-txt {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.hebergements-cards .card-title {
+	margin: 0;
+}
+
+.hebergements-cards .card-subtitle {
+	margin: 0;
 }
 
 /****** Populaires ***********/
