@@ -275,7 +275,7 @@ main {
 }
 
 .hebergements-cards a {
-	width: 30.86%;
+	width: 30%;
 }
 
 .hebergements-cards .card {
@@ -315,7 +315,7 @@ main {
 .card-rating {
 	display: flex;
 	justify-content: space-between;
-	width: 36.7%;
+	width: 36%;
 	color: #0065fc;
 }
 
