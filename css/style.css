@@ -38,23 +38,23 @@ ul {
 
 /* || HEADER || */
 
-header {
+.logo-nav {
 	display: flex;
 	justify-content: space-between;
 }
 
-header img {
+.logo-nav img {
 	height: 19px;
 	margin: 30px 50px 30px 0;
 }
 
-nav ul {
+.logo-nav ul {
 	margin: 0;
 	padding-left: 50px;
 	font-size: 16px;
 }
 
-nav li {
+.logo-nav li {
 	display: inline-block;
 	border-top: 2px solid transparent;
 	padding: 15px 0 0 0;
@@ -67,14 +67,6 @@ nav li:nth-child(2) {
 nav li:hover {
 	border-top: 2px solid #0065fc;
 	color: #0065fc;
-}
-
-/* || MAIN || */
-main {
-	margin-top: 30px;
-	display: flex;
-	flex-direction: column;
-	gap: 35px;
 }
 
 /* || INFO GROUP || */
@@ -218,6 +210,13 @@ main {
 	border: 1px solid #d9d9d9;
 	border-radius: 50%;
 	color: #0065fc;
+}
+/* || MAIN || */
+main {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
 }
 
 /* Titres de section (Hébergements à Marseille, etc... */
