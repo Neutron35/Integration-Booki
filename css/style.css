@@ -432,7 +432,7 @@ main {
 	background-color: #f2f2f2;
 }
 
-.footer-list div {
+.footer-list nav {
 	width: 33%;
 	display: flex;
 	flex-direction: column;
@@ -440,7 +440,7 @@ main {
 	padding: 15px;
 }
 
-.footer-list p {
+.footer-list h2 {
 	font-size: 18px;
 	font-weight: bold;
 	margin: 0;
