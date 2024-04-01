@@ -62,7 +62,7 @@ ul {
 	padding: 15px 0 0 0;
 }
 
-nav li:hover {
+.logo-nav li:hover {
 	border-top: 2px solid #0065fc;
 	color: #0065fc;
 }
@@ -118,7 +118,7 @@ nav li:hover {
 	border: 1px solid #0065fc;
 	background-color: #0065fc;
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: bold;
 	color: #ffffff;
 	border-radius: 0 15px 15px 0;
 }
@@ -439,10 +439,6 @@ main {
 	margin: 0;
 }
 
-.activites-cards h3 {
-	width: fit-content;
-}
-
 /* || FOOTER || */
 .footer-list {
 	display: flex;
@@ -524,4 +520,48 @@ main {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 	/* ... */
+	.main-container {
+		padding: 0;
+		margin: 0;
+	}
+
+	.logo-nav {
+		flex-direction: column;
+		margin-bottom: 15px;
+	}
+
+	.logo-nav img {
+		width: 61px;
+		margin: 0 auto 0 auto;
+	}
+
+	.logo-nav ul {
+		gap: 0;
+		font-size: 15px;
+	}
+
+	.logo-nav li {
+		width: 50%;
+		text-align: center;
+		border-top: 0;
+		border-bottom: 2px solid transparent;
+		padding: 0 0 15px 0;
+	}
+
+	.logo-nav li:hover {
+		border-top: 0;
+		border-bottom: 2px solid #0065fc;
+	}
+
+	.info-group {
+		padding: 0 20px;
+	}
+
+	.headline h1 {
+		font-size: 19px;
+	}
+
+	.headline p {
+		font-size: 14px;
+	}
 }
