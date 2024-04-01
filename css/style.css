@@ -136,6 +136,7 @@ nav li:hover {
 }
 
 .filterbar h2 {
+	margin: 0;
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -224,6 +225,7 @@ main {
 	border-radius: 20px;
 	padding: 5px;
 	filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+	display: flex;
 }
 
 .card img {
@@ -242,6 +244,15 @@ main {
 	color: var(--main-bg-color);
 }
 
+.card-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.card-txt {
+	display: flex;
+	flex-direction: column;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
 	display: flex;
@@ -274,11 +285,10 @@ main {
 }
 
 .hebergements-cards .card {
-	display: flex;
 	flex-grow: 1;
 	flex-direction: column;
 	justify-content: space-between;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 .hebergements-cards img {
@@ -288,22 +298,18 @@ main {
 }
 
 .hebergements-cards .card-content {
-	display: flex;
-	flex-direction: column;
 	padding: 9px 0 0 10px;
 	flex-grow: 1;
 }
 
 .hebergements-cards .card-txt {
-	display: flex;
 	flex-grow: 1;
-	flex-direction: column;
 	justify-content: flex-end;
 	margin-bottom: 8px;
 }
 
 .hebergements-cards .card-rating {
-	width: 36%;
+	width: 81px;
 	margin-top: auto;
 }
 
@@ -355,10 +361,6 @@ main {
 	margin-top: 30px;
 }
 
-.populaires-cards .card {
-	display: flex;
-}
-
 .populaires-cards img {
 	width: 33%;
 	height: 136px;
@@ -369,8 +371,6 @@ main {
 .populaires-cards .card-content {
 	width: 67%;
 	padding: 10px 0 5px 15px;
-	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 	box-sizing: border-box;
 }
@@ -406,7 +406,7 @@ main {
 
 .activites-cards {
 	display: flex;
-	gap: 30px;
+	justify-content: space-between;
 }
 
 .activites-cards a {
@@ -414,19 +414,29 @@ main {
 	display: flex;
 }
 .activites-cards .card {
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: space-between;
 	padding: 0;
 }
 
 .activites-cards img {
 	width: 100%;
 	height: 380px;
-	aspect-ratio: 0.78 / 1;
 	border-radius: 20px 20px 0 0;
 }
 
+.activites-cards .card-content {
+	padding: 20px 19px 20px 19px;
+	flex-grow: 1;
+}
+
+.activites-cards .card-txt {
+	flex-grow: 1;
+	justify-content: center;
+}
 .activites-cards .card-title {
 	margin: 0;
-	padding: 20px 19px 20px 19px;
 }
 
 .activites-cards h3 {
@@ -469,7 +479,6 @@ main {
 @media (max-width: 1024px) {
 	.filterbar h2 {
 		width: 100%;
-		margin-bottom: 5px;
 	}
 
 	.filters {
@@ -505,6 +514,10 @@ main {
 
 	.populaires-cards .card-subtitle {
 		font-size: 13px;
+	}
+
+	.activites-cards img {
+		height: 200px;
 	}
 }
 
