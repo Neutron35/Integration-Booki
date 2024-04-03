@@ -256,6 +256,7 @@ main {
 	display: flex;
 	flex-direction: column;
 }
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
 	display: flex;
@@ -604,6 +605,8 @@ main {
 		font-size: 14px;
 		flex: 1;
 		padding: 4px 17px;
+		min-width: 116.5px;
+		max-width: 198.5px;
 	}
 
 	.populaires {
@@ -615,12 +618,14 @@ main {
 
 	.populaires-cards {
 		flex-direction: column;
+		align-items: center;
 		gap: 15px;
 		margin-top: 15px;
 	}
 
 	.populaires-cards a {
 		width: 100%;
+		max-width: 335px;
 	}
 
 	.populaires-cards .card-title {
@@ -645,12 +650,15 @@ main {
 	}
 
 	.hebergements-cards {
+		flex-direction: column;
+		align-items: center;
 		margin: 15px 0;
 		row-gap: 15px;
 	}
 
 	.hebergements-cards a {
 		width: 100%;
+		max-width: 335px;
 	}
 
 	.activites-cards {
@@ -660,6 +668,7 @@ main {
 
 	.activites-cards a {
 		width: 100%;
+		max-width: 335px;
 	}
 
 	.activites-cards img {
