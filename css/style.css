@@ -664,6 +664,7 @@ main {
 	.activites-cards {
 		flex-direction: column;
 		gap: 15px;
+		align-items: center;
 	}
 
 	.activites-cards a {
