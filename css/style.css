@@ -288,7 +288,6 @@ main {
 .hebergements-cards .card {
 	flex-grow: 1;
 	flex-direction: column;
-	justify-content: space-between;
 	padding-bottom: 15px;
 }
 
@@ -305,7 +304,6 @@ main {
 
 .hebergements-cards .card-txt {
 	flex-grow: 1;
-	justify-content: flex-end;
 	margin-bottom: 8px;
 }
 
@@ -425,7 +423,6 @@ main {
 .activites-cards .card {
 	flex-grow: 1;
 	flex-direction: column;
-	justify-content: space-between;
 	padding: 0;
 }
 
@@ -506,11 +503,11 @@ main {
 	.populaires-cards {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		gap: 20px;
 	}
 
 	.populaires-cards a {
-		width: 30%;
+		width: 32%;
 	}
 
 	.populaires-cards .card-title {
